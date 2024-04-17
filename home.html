@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amazon</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="home.js"></script>
 </head>
 <body>
+    <div class="top">
+        <img src="logo.jpg">
+        <img src="location.png">
+        <form>
+            <select name="Categories" id="Categories">
+                <option value="" disabled selected>All</option>
+                <option value="All categories">All categories</option>
+                <option value="Books">Books</option>
+                <option value="Cosmetics">Cosmetics</option>
+                <option value="Daily Essentials">Daily Essentials</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Garden Tools">Garden Tools</option>
+                <option value="Households">Households</option>
+                <option value="Jewllery">Jewllery</option>
+                <option value="Kitchen Products">Kitchen Products</option>
+                <option value="Sports Equipment">Sports Equipment</option>
+            </select>
+        </form>
+        <form>
+            <input type="text" placeholder="Search Amazon.in">
+        </form>
+        <form>
+            <input list="languages" placeholder="EN">
+            <datalist id="languages">
+                <option value="Hindi">Hindi</option>
+                <option value="Punjabi">Punjabi</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Sanskrit">Sanskrit</option>
+                <option value="German"></option>
+            </datalist>
+        </form>
+      <div class="top6">
+            <p id="t6_1">Hello,sign in<br>
+            Accounts & Lists</p>
+            <button class ="t6_2"> <i class="fa fa-caret-down"></i></button>
+            <div class="t6_2_1">
+                <ul>
+                    <li>Your Account</li>
+                    <li>Your Orders</li>
+                    <li>Your Wish List</li>
+                    <li>Your Recommendations</li>
+                    <li>Your Prime Membership</li>
+                    <li>Your Prime Video</li>
+                    <li>Your Subscribe & Save Items</li>
+                </ul>
+            </div>
+      </div>
+    </div>
     
+    <div class="secondtop">
+        <div class="all">
+            <button onclick="function1" class="allbtn">All<i class="fa fa-reorder"></i></button>
+        </div>
+        <ul>
+            <a href="MiniTV"> MiniTV</a>
+            <a href="Sell"> Sell</a>
+            <a href="Best Sellers"> Best Sellers</a>
+            <a href="Today's Deal"> Today's Deal</a>
+            <a href="Prime"> Prime</a>
+            <a href="Customer Service"> Customer Service</a>
+            <a href="Electronics"> Electronics</a>
+            <a href="New Releases"> New Releases</a>
+            
+        </ul>
+    </div>
+
+    <div class="sildeshow_container">
+        <div class="slides">
+            <img src="slideshow1.jpg">
+        </div>
+        <div class="slides">
+            <img src="slideshow2.jpg">
+        </div>
+        <div class="slides">
+            <img src="slideshow3.jpg">
+        </div>
+        <div class="slides">
+            <img src="slideshow4.jpg">
+        </div>
+        <div class="slides">
+            <img src="slideshow5.jpg">
+        </div>
+        <div class="slides">
+            <img src="slideshow6.jpg">
+        </div>
+        <div class="slides">
+            <img src="slideshow7.jpg">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
 </body>
 </html>

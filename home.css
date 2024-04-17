@@ -1,0 +1,144 @@
+.top{display:flex;
+background-color: black;}
+.top>img{
+    height: 60px;
+}
+.top>form{
+    padding: 10px 0px 15px 0px;
+}
+.top>form>input[type=text]{
+    height: 30px;
+    width: 700px;
+}
+#Categories{
+    height: 35px;
+    width: 50px;
+    border: none;
+    border-radius: 7px 0 0 7px;
+}
+.top>form>input[list]{
+    background-image: url('flag.png');
+    background-size: 20px 15px;
+    background-position:5px 8px;
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    height: 35px;
+    width: 50px;
+    border: none;
+}
+.stop>ul{
+    display:flex;
+    float: left;
+    list-style-type: none;
+}
+.top>ul>li{
+    padding: 20px;  
+}
+.top6{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+    overflow: hidden;
+    position:relative;
+}
+#t6_1::first-line{
+    padding: 10px 0px 0px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+#t6_1{
+    font-size:16px;
+    padding: 10px 0px 0px 5px;
+    margin: 0px;
+    width: 120px;
+    color:white;
+}
+.top6 :hover{
+    border: 1px solid white;
+}
+.t6_2{
+    color: white;
+    background-color: inherit;
+    border: none;
+}
+.t6_2_1{
+    background-color: inherit;
+    display: none;
+    position:absolute;
+    color: white;
+}
+.top6:hover .t6_2_1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.secondtop{
+    display: flex;
+    flex-direction: row;
+    background-color:  #444848;
+    height: 50px;
+}
+.all{
+    width: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.allbtn{
+    background-color: inherit;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1px hidden black ;
+}
+.allbtn:hover{
+border: 1px solid white;
+}
+i{
+    margin-left:15px;
+    color: white;
+}
+
+.secondtop > ul{
+    display: flex;
+    flex-direction: row;
+}
+.secondtop> ul > a{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: 1px hidden black ;
+    box-sizing: border-box;
+}
+.secondtop>ul>a:hover{
+    border: 1px solid white;
+}
+
+.slideshow_container{
+    position:relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.prev , .next{
+    padding: 16px;
+    cursor: pointer;
+    color: white;
+
+}
+.prev{
+    position: absolute;
+    bottom: 530px;
+    left: 50px;
+}
+.next{
+    position: absolute;
+    bottom: 530px;
+    right: 50px; 
+}
+.next:hover,.prev:hover{
+    background-color: #444848;
+}
