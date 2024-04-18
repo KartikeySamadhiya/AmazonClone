@@ -117,12 +117,13 @@ i{
     border: 1px solid white;
 }
 
-.slideshow_container{
-    position:relative;
-    max-width: 1000px;
-    margin: auto;
-}
 
+.slides{
+    display: none;
+}
+.slides:first-child{
+    display: block;
+}
 .prev , .next{
     padding: 16px;
     cursor: pointer;
