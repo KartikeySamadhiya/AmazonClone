@@ -289,3 +289,37 @@ i{
     padding: 10px;
 }
 
+
+.scroll-container {
+    background-color:gainsboro;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .scroll-container img {
+    padding: 10px;
+    display: inline-block;
+  }
+  .prev2, .next2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .prev2 {
+    left: 0;
+  }
+  
+  .next2 {
+    right: 0;
+  }
+

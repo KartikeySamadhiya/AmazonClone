@@ -22,3 +22,6 @@ function showSlides() {
   
   slides[slideIndex].style.display = "block";  
 }
+
+
+
