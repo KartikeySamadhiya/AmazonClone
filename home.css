@@ -73,6 +73,9 @@ background-color: black;}
     background-color: black;
 }
 
+/* CSS for Second Bar  */
+
+
 .secondtop{
     display: flex;
     flex-direction: row;
@@ -118,6 +121,9 @@ i{
 }
 
 
+/* CSS for SlideShow */
+
+
 .slides{
     display: none;
 }
@@ -143,6 +149,10 @@ i{
 .next:hover,.prev:hover{
     background-color: #444848;
 }
+
+
+/* CSS for Frames */
+
 
 .frames{
     display: flex;
@@ -289,6 +299,8 @@ i{
     padding: 10px;
 }
 
+/* CSS for Scrollable Image Gallery*/
+
 
 .scroll-container {
     background-color:gainsboro;
@@ -323,3 +335,37 @@ i{
     right: 0;
   }
 
+ /* CSS for Gallery */
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+  }
+.gallery-1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px;
+    background-color: antiquewhite;
+  }
+  .gallery-2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px;
+    background-color: antiquewhite;
+  }
+  .galleryimg{
+    display: block;
+    padding: 0 50px 0 150px;
+  }
+  
+.subimages{
+    display: flex;
+    flex-direction: row;
+}
+.subimg>img{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}

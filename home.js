@@ -23,5 +23,13 @@ function showSlides() {
   slides[slideIndex].style.display = "block";  
 }
 
-
-
+function myFunction(imgs) {
+  var expandImgs = document.getElementsByClassName("galleryimg");
+  
+  for (var i = 0; i < expandImgs.length; i++) {
+    
+    expandImgs[i].querySelector("img").src = imgs.src;
+  
+    expandImgs[i].style.display = "block";
+  }
+}
